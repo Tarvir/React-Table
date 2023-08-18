@@ -1,13 +1,13 @@
 import "./App.css";
-import InputFields from "./Components/InputFields";
-import TextBoxInput from "./Components/TextBoxInput";
+import InputFields from "./Components/InputFields.js";
+import Table from "./Components/ReactTable/Table";
 
 
 function App() {
   return (
     <>
-      <InputFields />
-      {/* <TextBoxInput /> */}
+      <InputFields/>
+      {/* <Table /> */}
     </>
   );
 }
